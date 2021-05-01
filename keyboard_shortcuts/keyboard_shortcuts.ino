@@ -1,13 +1,13 @@
 uint8_t buf[8] = {0, 0, 0, 0, 0, 0, 0, 0};
 
-#define COPY_PIN 5
-#define CUT_PIN 6
+#define COPY_PIN  5
+#define CUT_PIN   6
 #define PASTE_PIN 7
 
 #define MOD_CTRL_LEFT 1<<0
-#define KEY_C 6
-#define KEY_V 25
-#define KEY_X 27
+#define KEY_C   6
+#define KEY_V   25
+#define KEY_X   27
 
 void setup() {
   Serial.begin(9600);
